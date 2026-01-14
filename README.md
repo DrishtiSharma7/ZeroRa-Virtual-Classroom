@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ZeroRa Virtual Classroom
+
+ZeroRa Virtual Classroom is a web-based virtual classroom platform that simplifies real-time online teaching. It provides separate views for teachers and students, an interactive whiteboard area, and a participant/control section.
+
+## Features
+
+- Dedicated views for teacher and student
+- 70/30 layout: large digital whiteboard + participant/control sidebar
+- Real-time classroom-oriented interface design
+- Custom login page UI
+- Server setup file (`server.js`) for backend integration (future enhancements)
+
+## Tech Stack
+
+- **Framework:** Next.js (App Router)
+- **Language:** TypeScript / JavaScript
+- **Styling:** Tailwind CSS (if used in the project)
+- **Runtime:** Node.js
+
+> Note: Update the stack list according to your actual project (for example, Tailwind, Socket.io, etc.).
+
+## Project Structure (Key Files)
+
+- `app/class/[classId]/TeacherView.tsx` – Classroom UI for the teacher
+- `app/class/[classId]/StudentView.tsx` – Classroom UI for the student
+- `app/class/[classId]/page.tsx` – Dynamic class page routing
+- `app/login/page.tsx` – Login page using the App Router
+- `app/pages/login.tsx` – Legacy/alternate login page
+- `public/bg-login.png` – Login background image
+- `server.js` – Server / backend entry point
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js (LTS version recommended)
+- npm or yarn installed
+
+### Installation
 
 ```bash
-npm run dev
+# Clone the repository
+git clone https://github.com/DrishtiSharma7/ZeroRa-Virtual-Classroom.git
+
+cd ZeroRa-Virtual-Classroom
+
+# Install dependencies
+npm install
 # or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+yarn install
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
