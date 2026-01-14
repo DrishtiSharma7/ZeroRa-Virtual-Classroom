@@ -2,6 +2,8 @@
 
 ZeroRa Virtual Classroom is a web-based virtual classroom platform that simplifies real-time online teaching. It provides separate views for teachers and students, an interactive whiteboard area, and a participant/control section.
 
+Link: https://zero-ra-virtual-classroom.vercel.app/
+
 ## Features
 
 - Dedicated views for teacher and student
