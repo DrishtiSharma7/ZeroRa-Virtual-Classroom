@@ -16,7 +16,7 @@ Link: https://zero-ra-virtual-classroom.vercel.app/
 
 - **Framework:** Next.js (App Router)
 - **Language:** TypeScript / JavaScript
-- **Styling:** Tailwind CSS (if used in the project)
+- **Styling:** Tailwind CSS
 - **Runtime:** Node.js
 
 > Note: Update the stack list according to your actual project (for example, Tailwind, Socket.io, etc.).
